@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Главная страница</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Создать минимум три страницы с полноценной навигацией (меню сайта),Меню должно быть сделано списком."> 
+		<meta name="keywords" content="картинки 3 шт +названия">
+	</head>
+	<body>
+		<h1>Menu</h1>
+			<ul>
+		        <li><a href="index.html">First page</a></li>
+				<li><a href="page 2.html">Second page</a></li>
+				<li><a href="page 3.html">Third page</a></li>
+				<li><a href="authorization.html">Authorization</a></li>
+			    <li><a href="registration.html">Registration</a></li>
+			</ul>
+		<form name="registration form" method="POST" align="justify">
+    <label><b>Форма регистрации. Все поля обязательны к заполнению</b></label>
+      <fieldset>
+	  <ul>
+          <li>
+		  <label>
+		  Логин
+             <input type="text" name="login" placeholder="Укажите Login" required  minlength="6" maxlength="13" minlegth= >
+			</label>
+          </li>
+      </ul>
+      <ul>
+        <li>
+            <input type="email" name="e-mail" placeholder="Укажите Email" required minlength="8" maxlength="12">&nbsp;<span>Email</span> 
+        </li>
+      </ul>
+	  <ul>
+		<li>
+			<input id="password1"type="password" name="password" placeholder="********" required minlength="6" maxlength="11">&nbsp;<span>Укажите пароль</span>
+		    <input id="password2"type="password" name="password" placeholder="********" required minlength="6" maxlength="11">&nbsp;<span>Потвердите пароль</span> 
+		</li>
+		</fieldset>
+	  <ul>
+		<li>
+			<input type="file" name="image" accept="image">&nbsp;<span>Загрузите изображение (на выбор)</span> 
+		</li>
+	  </ul>
+      <ul>
+        <li>
+        <input type="date" name="date" size="100" required>&nbsp;
+        <span style='padding-left:23px;'>Дата рождения</span>
+        </li>
+      </ul>
+      <ul>
+        <li>
+            <input type="radio" name="sex" required>&nbsp;<span>М</span>
+            <input type="radio" name="sex" required>&nbsp;<span>Ж</span>
+            <span style='padding-left:90px;'>Пол</span>
+        </li>
+      </ul>
+      <ul>
+          <li>
+
+          </li>
+      </ul>
+      
+      <ul>
+          <li>
+              <input type="submit" value="Отправить">
+          </li>
+      </ul> 
+    </form>
+	</body>
+</html>
